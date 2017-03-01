@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/stroll.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/scripts.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>:Panter</title>
+  </head>
+  <body>
+    <nav class="header">
+      <div class="contMenu">
+        <a href="index.html" class="logoMenu" id="logoMenu">
+          <img src="img/logo-panter.png" alt="Logo Panter">
+        </a>
+        <ul class="menu">
+          <li><a href="">Inicio</a></li>
+          <li><a href="">Proyectos</a></li>
+          <li><a href="">Nosotros</a></li>
+          <li><a href="">Clientes</a></li>
+          <li><a href="">Prensa</a></li>
+          <li><a id="contacto" href="">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div id="main">
+      <ul class="grow">
+        <div class="bannerTop itemScroll">
+          <div class="img">
+            <img src="img/Proyectos01.jpg" alt="Hagamos algo increíble">
+          </div>
+          <div class="textProyectos">
+            <p>CASITA</p>
+            <p>DE ARTISTAS</p>
+          </div>
+        </div>
+        <div class="retoProyectos itemScroll">
+          <div class="contRetoProyectos">
+            <div>
+              <h4>RETO</h4>
+              <p>Davivienda tenía la idea de crear una publicación sobre artistas colombianos que fuese llamativa
+                para los niños y que además les ayudará a aprender sobre arte de una manera distinta.</p>
+            </div>
+          </div>
+        </div>
+        <div class="imgRetoProyectos itemScroll">
+          <img src="img/img-reto.jpg" alt="" id="imgReto">
+        </div>
+        <div class="solucionProyectos itemScroll">
+          <div>
+            <h4>SOLUCIÓN</h4>
+            <p>Con este reto en mente diseñamos y desarrollamos Casita de artistas. Un app con la que los niños
+              aprenden sobre los grandes maestros del arte colombiano de una manera divertida y diferente. Allí
+              entran a sus estudios y aprenden sobre la vida de cada uno de ellos a través de videos, juegos,
+              libros interactivos y actividades donde aplican sus nuevos conocimientos.</p>
+          </div>
+        </div>
+        <div class="ipadProyectos itemScroll">
+          <div>
+            <h4>UI/IOS Y ANDROID</h4>
+            <p>nombre</p>
+          </div>
+          <img src="img/ipadProyectos.png" alt="">
+          <div class="ipadFondoRojo"></div>
+        </div>
+        <div class="pantallasIpadProyectos">
+          <div>
+            <img src="img/pantallasIpad1.png" alt="">
+          </div>
+          <div>
+            <img src="img/pantallasIpad2.png" alt="">
+          </div>
+        </div>
+        <div class="pantallasIpadProyectos">
+          <div>
+            <img src="img/pantallasIpad3.png" alt="">
+          </div>
+          <div>
+            <img src="img/pantallasIpad4.png" alt="">
+          </div>
+        </div>
+        <div class="text1ColProyectos">
+          <p>"El lugar donde el<br>arte y la diversión<br>viven juntos"</p>
+        </div>
+        <div class="imgFullProyectos">
+          <img src="img/personajesCasitaArtistas.png" alt="">
+        </div>
+        <div class="otrosProyectosPro">
+          <div>
+            <a>otros<br>proyectos</a>
+          </div>
+          <div>
+            <a href="">
+              <img src="img/proimg3.png" alt="">
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img src="img/proimg2.png" alt="">
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img src="img/proimg4.png" alt="">
+            </a>
+          </div>
+        </div>
+        <div>
+          <div class="footer">
+            <img src="img/footer.png" alt="">
+          </div>
+        </div>
+      </ul>
+    </div>
+    <script>
+      window.onload = initialFunProyectos();
+    </script>
+    <script src="js/stroll.min.js"></script>
+    <script>
+      stroll.bind( '#main ul' );
+    </script>
+  </body>
+</html>

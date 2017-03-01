@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/stroll.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/scripts.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>:Panter</title>
+  </head>
+  <body>
+    <nav class="header">
+      <div class="contMenu">
+        <a href="index.html" class="logoMenu" id="logoMenu">
+          <img src="img/logo-panter.png" alt="Logo Panter">
+        </a>
+        <ul class="menu">
+          <li><a href="">Inicio</a></li>
+          <li><a href="">Proyectos</a></li>
+          <li><a href="">Nosotros</a></li>
+          <li><a href="">Clientes</a></li>
+          <li><a href="">Prensa</a></li>
+          <li><a id="contacto" href="">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div id="main">
+      <ul class="grow">
+        <div class="franjaFondoMenu itemScroll"></div>
+        <div class="tituloProyectos itemScroll">
+          <div class="contTituloProyectos">
+            <div>
+              <div>
+                <p>Filtro:</p>
+                <p id="filtroElegido">Todos</p>
+                <div id="flechaDesplegar" onclick="mostrarCategorias()"></div>
+                <ul id="categoriasProyectos">
+                  <div class="arrow_box"></div>
+                  <li onclick="filtrar('web')">Páginas web</li>
+                  <li onclick="filtrar('apps')">Aplicaciones</li>
+                  <li>Animaciones</li>
+                  <li>Branding</li>
+                  <li>Ilustraciones</li>
+                  <li>Impresos</li>
+                </ul>
+              </div>
+              <div>PROYECTOS</div>
+            </div>
+          </div>
+        </div>
+        <div class="itemsProyectos itemScroll" id="firstItemProyecto">
+          <div class="itemProyectos apps">
+            <img src="img/casitaArtistas.png" alt="">
+            <div>
+              <p>Casita</p>
+              <b>De artistas</b>
+              <a href="">+ <p>ver proyecto</p></a>
+            </div>
+          </div>
+          <div class="itemProyectos web">
+            <img src="img/proimg2.png" alt="">
+            <div>
+              <p>Casita</p>
+              <b>De artistas</b>
+              <a href="">+ <p>ver proyecto</p></a>
+            </div>
+          </div>
+          <div class="itemProyectos">
+            <img src="img/proimg4.png" alt="">
+            <div>
+              <p>Casita</p>
+              <b>De artistas</b>
+              <a href="">+ <p>ver proyecto</p></a>
+            </div>
+          </div>
+          <div class="itemProyectos">
+            <img src="img/emmainafrica.jpg" alt="">
+            <div>
+              <p>Casita</p>
+              <b>De artistas</b>
+              <a href="">+ <p>ver proyecto</p></a>
+            </div>
+          </div>
+          <div class="itemProyectos">
+            <img src="img/itemproyecto.jpg" alt="">
+            <div>
+              <p>Casita</p>
+              <b>De artistas</b>
+              <a href="">+ <p>ver proyecto</p></a>
+            </div>
+          </div>
+          <div class="itemProyectos">
+            <img src="img/proimg3.png" alt="">
+            <div>
+              <p>Casita</p>
+              <b>De artistas</b>
+              <a href="">+ <p>ver proyecto</p></a>
+            </div>
+          </div>
+          <div class="itemProyectos">
+            <img src="img/casitaArtistas.png" alt="">
+            <div>
+              <p>Casita</p>
+              <b>De artistas</b>
+              <a href="">+ <p>ver proyecto</p></a>
+            </div>
+          </div>
+          <div class="itemProyectos">
+            <img src="img/proimg2.png" alt="">
+            <div>
+              <p>Casita</p>
+              <b>De artistas</b>
+              <a href="">+ <p>ver proyecto</p></a>
+            </div>
+          </div>
+          <div class="itemProyectos">
+            <img src="img/proimg4.png" alt="">
+            <div>
+              <p>Casita</p>
+              <b>De artistas</b>
+              <a href="">+ <p>ver proyecto</p></a>
+            </div>
+          </div>
+          <div class="itemProyectos">
+            <img src="img/emmainafrica.jpg" alt="">
+            <div>
+              <p>Casita</p>
+              <b>De artistas</b>
+              <a href="">+ <p>ver proyecto</p></a>
+            </div>
+          </div>
+          <div class="itemProyectos">
+            <img src="img/itemproyecto.jpg" alt="">
+            <div>
+              <p>Casita</p>
+              <b>De artistas</b>
+              <a href="">+ <p>ver proyecto</p></a>
+            </div>
+          </div>
+          <div class="itemProyectos">
+            <img src="img/proimg3.png" alt="">
+            <div>
+              <p>Casita</p>
+              <b>De artistas</b>
+              <a href="">+ <p>ver proyecto</p></a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="footer">
+            <img src="img/footer.png" alt="">
+          </div>
+        </div>
+      </ul>
+    </div>
+    <script>
+      window.onload = initialFunProyectos2();
+    </script>
+    <script src="js/stroll.min.js"></script>
+    <script>
+      stroll.bind( '#main ul' );
+    </script>
+  </body>
+</html>
